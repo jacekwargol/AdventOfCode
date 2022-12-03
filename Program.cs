@@ -1,3 +1,3 @@
 ﻿using AdventOfCode;
 
-Console.WriteLine(Day1.Solve());
+Console.WriteLine(Day3.GetRucksackScore("input_031.txt"));
