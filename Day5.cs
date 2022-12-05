@@ -80,20 +80,11 @@ internal static class Day5 {
                 to = int.Parse(line[17].ToString()) - 1;
             }
 
-            for (int i = 0; i < stacks.Count; i++) {
-                Console.WriteLine($"Stack {i}: {stacks[i]}");
+            if (stacks[from].Length == 0) {
+                continue;
             }
-            Console.WriteLine($"move {amount} from {from} to {to}");
-            Console.WriteLine("--------------------------");
-            //from = int.Parse(line[12].ToString()) - 1;
-            //to = int.Parse(line[17].ToString()) - 1;
-            for (int i = 0; i < amount; i++) {
-                if (stacks[from].Length == 0) {
-                    continue;
-                }
-                stacks[to].Insert(0, stacks[from][0]);
-                stacks[from].Remove(0, 1);
-            }
+            stacks[to].Insert(0, stacks[from].ToString().Substring(0, amount));
+            stacks[from].Remove(0, amount);
         }
 
         return stacks;
@@ -101,7 +92,7 @@ internal static class Day5 {
 
     public static string GetStacksTop(string filePath) {
         var startingStacks = GetStacks(filePath);
-        var stacks = MoveStacks(startingStacks, filePath);
+        var stacks = MoveStacksMultiple(startingStacks, filePath);
         var tops = new StringBuilder();
 
         foreach (var stack in stacks) {
