@@ -1,3 +1,3 @@
 ﻿using AdventOfCode;
-
-Console.WriteLine(Day4.GetOverlapingPairs("input_041.txt"));
+var day5File = "../../../input_051.txt";
+Console.WriteLine(Day5.GetStacksTop(day5File));
