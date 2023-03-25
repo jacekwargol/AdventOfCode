@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-25T14:10:00.961Z" agent="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="koCUgaPC-9-L8mP8w-YV" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-25T14:14:57.573Z" agent="Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="mQqkzN-jqP-2p2liZfyg" version="21.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1285" dy="1958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -54,6 +54,18 @@
         </mxCell>
         <mxCell id="AlzXRlLoTBDStH6_vMP3-13" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="195" y="385" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AlzXRlLoTBDStH6_vMP3-16" value="sum = 0&lt;br&gt;prod = 0&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;i = 0&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="95" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AlzXRlLoTBDStH6_vMP3-17" value="i &amp;gt;= n.size()" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="760" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlzXRlLoTBDStH6_vMP3-18" value="sum = sum + n[i]&lt;br&gt;prod = prod * n[i]&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;i = i + 1&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AlzXRlLoTBDStH6_vMP3-19" value="return (sum, prod)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-10" y="860" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
